@@ -1,0 +1,50 @@
+/**/
+* {
+      margin: 0;
+      padding: 0;
+      font-size: 28px;
+      font-family: Arial;
+    }
+    menu {
+    background: rgb(11,31,232);
+    background: linear-gradient(90deg, rgba(11,31,232,1) 10%, rgba(20,157,252,1) 49%, rgba(11,31,232,1) 92%);
+      grid-area: menu;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .button1{
+      padding: 15px;
+      margin-top: 5px;
+      width: 100vw;
+      color: white;
+      background: rgb(11,31,232);
+      background: linear-gradient(90deg, rgba(11,31,232,1) 10%, rgba(12,75,244,1) 49%, rgba(11,31,232,1) 92%);
+      border: blue;
+      font-size: 22px;
+      font-family: Arial;
+      }
+      .container {
+      display: grid;
+      grid-template-columns: 1.5fr 2.5fr;
+      grid-template-rows: 10vh 80vh 10vh;
+      grid-template-areas: "menu menu" "header header" "footer footer";
+      }
+    header {
+      background: rgb(124,195,227);
+      background: linear-gradient(90deg, rgba(124,195,227,1) 10%, rgba(124,195,227,1) 49%, rgba(124,195,227,1) 100%);
+      grid-area: header;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    footer {
+      color: white;
+       background: rgb(11,31,232);
+      background: linear-gradient(90deg, rgba(11,31,232,1) 10%, rgba(12,75,244,1) 49%, rgba(11,31,232,1) 92%);
+      grid-area: footer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
